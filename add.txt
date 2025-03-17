@@ -1,2 +1,3 @@
 thi is started
 random
+home -example added
