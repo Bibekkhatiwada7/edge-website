@@ -45,7 +45,7 @@ window.addEventListener("scroll", function () {
     try {
       const res = await fetch(CONFIG.ENDPOINTS.LOGIN, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" }, mode: 'no-cors',
         body: JSON.stringify({ username, password }),
       });
       const data = await res.json();
