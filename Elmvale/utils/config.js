@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://backend-tau-sand.vercel.app"; // production
+// const BASE_URL = "http://localhost:3000"; // LOCAL HOST
 const CONFIG = {
   BASE_URL,
   ENDPOINTS: {
